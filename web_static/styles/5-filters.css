@@ -1,0 +1,55 @@
+/*
+ * === Filters class style ===
+ */
+
+/* Filters style */
+.filters {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 70px;
+  width: 100%;
+}
+
+/* Search button style */
+.filters button {
+  background: #ff5a5f;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  float: right;
+  font-size: 18px;
+  height: 48px;
+  margin: 12px 30px;
+  width: 20%;
+}
+.locations {
+	height: 100%;
+	width: 25%;
+	border-right: 1px solid #DDDDDD;
+	float: left;
+	align-items: center;
+	padding-left: 40px;
+}
+h3 {
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 0px;
+
+}
+
+.amenities {
+	height: 100%;
+	width: 25%;
+	float: left;
+	padding-left: 40px;
+	align-items: center;
+}
+/* Search button hover opacity */
+.filters button:hover {
+    opacity: 0.9;
+}
